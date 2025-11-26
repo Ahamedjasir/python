@@ -1,14 +1,16 @@
-# # n=int(input("enter the number"))
-# # result=1
-# # for i in range(1,n+1):
-# #     result=result*i
-# # print("factorial",n,"is",result)
-# count = 0
+n=int(input("enter the number"))
+result=1
+for i in range(1,n+1):
+    result=result*i
+print("factorial",n,"is",result)
 
-# for i in range(1, 101):
-#     count += 1
+count = 0
 
-# print("Total numbers:", count)
+for i in range(1, 101):
+    count += 1
+
+print("Total numbers:", count)
+
 
 data=[45,65,78,99,100]
 cnt=0
